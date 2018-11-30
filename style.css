@@ -90,6 +90,7 @@ body {
 	height: 350px;
 	border: 0px solid white;
 	border-radius: 50%;
+	overflow: auto;
 
 	}
 
@@ -103,7 +104,7 @@ body {
 	text-align: center;
 	margin: 0 auto;
 	height: 534px;
-	overflow: auto;
+
 	
 	}
 
@@ -277,6 +278,7 @@ body {
 position: absolute;
 right: 50px;
 bottom:250px;
+overflow: auto;
 
 
 
@@ -287,6 +289,7 @@ bottom:250px;
 	position: absolute;
 	left: 50px;
 	top: 50px;
+	overflow: auto;
 	
 }
 
