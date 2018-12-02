@@ -31,7 +31,7 @@ body {
 	list-style: none;
 	margin: 0 auto;
 
-	/*obrisala sam margin i padding vec ima gore napisano -0*/
+	/*obrisala sam padding vec ima gore napisano -0*/
 }
 
 .nav ul li {
@@ -90,7 +90,7 @@ body {
 	height: 350px;
 	border: 0px solid white;
 	border-radius: 50%;
-	overflow: auto;
+	overflow: auto; /*ovo sam poslednje dodala, da ne izlazi slika iz svog parent elementa*/
 
 	}
 
@@ -144,7 +144,7 @@ body {
 	text-align: center;
 	margin: 0 auto;
 	/* height: 100%; */
-	overflow: auto;
+	overflow: auto; /*ovo sam poslednje dodala*/
 
 
  }
@@ -278,7 +278,7 @@ body {
 position: absolute;
 right: 50px;
 bottom:250px;
-overflow: auto;
+overflow: auto; /*ovo sam poslednje dodala*/
 
 
 
@@ -289,7 +289,7 @@ overflow: auto;
 	position: absolute;
 	left: 50px;
 	top: 50px;
-	overflow: auto;
+	overflow: auto; /*ovo sam poslednje dodala*/
 	
 }
 
