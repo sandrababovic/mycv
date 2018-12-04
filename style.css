@@ -370,7 +370,7 @@ body {
 
 .faculty {
 
-	height: 40%;
+	height: 45%;
 	background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
                   url(images/back.jpg);
                   background-repeat: no-repeat;
@@ -397,8 +397,8 @@ body {
 
 .master {
 
-    margin-top:10%;
-	height: 40%;
+    margin-top:2rem;
+	height: 45%;
 	background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
                   url(images/back.jpg);
                   background-repeat: no-repeat;
