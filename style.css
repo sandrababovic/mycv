@@ -152,7 +152,7 @@ body {
 
 /*smartphone*/
 
-@media only screen and (max-width: 480px), (orientation:portrait ){
+@media only screen and (max-width: 480px) and (orientation:portrait ){
   
  /*home*/
    .container {
