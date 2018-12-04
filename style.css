@@ -226,6 +226,11 @@ body {
 	width: auto;
 
   }
+	
+.practice {
+	
+	overflow: auto;
+	}
 
  
  /*skills*/
