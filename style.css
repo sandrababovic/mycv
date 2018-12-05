@@ -108,7 +108,7 @@ body {
 
 
    
-   border-radius: 50%;
+  /* border-radius: 50%; */
    height: 500px;  /*mozda treba max height and width*/
    width: 500px; 
    margin-bottom: 5%;
