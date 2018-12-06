@@ -151,6 +151,204 @@ body {
   
 }
 
+/*smartphones*/
+
+@media only screen and (max-width: 480px) and (orientation:portrait ){
+  
+ /*home*/
+   .container {
+
+  	height: auto;
+  	width: 100%;
+
+  }
+
+
+  .container img {
+    
+    width: 300px;
+    height: 300px;
+    
+    
+  } 
+
+  .container h1, .container p {
+
+  	width:auto;
+  	height: auto;
+
+  }
+
+ 
+  
+
+  .container button {
+
+
+  	padding: 0.5rem 0.5rem;
+  	font-size: 1em;
+    margin-bottom:1rem;
+  }
+
+
+.nav ul li{
+
+	display: block;
+	padding: 0.8rem;
+}
+
+
+/*education*/
+
+.container-education {
+
+  	height: auto;
+  	width: 100%;
+
+  }
+
+  .faculty, .master {
+
+
+  	width: auto;
+  }
+
+/*work*/
+
+.container-work {
+
+  	height: auto;
+  	width: 100%;
+	overflow: auto;
+
+  }
+
+  .project, .practice {
+
+	width: auto;
+
+  }
+	 
+ /*skills*/
+
+ .container-skills {
+
+  	height: auto;
+  	width: 100%;
+
+  }
+
+  .skills, .lang {
+
+	width: auto;
+
+  }
+
+
+}
+
+/*tablet landscape*/
+
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+
+ /*home*/ 
+  .container {
+
+  	height: auto;
+  	width: 100%;
+
+
+  }
+
+  .container img {
+
+  	float: left;
+  	padding-left: 20px;
+    width: 500px;
+    height: 500px;
+    
+
+
+  }
+
+   .container h1 {
+
+  	text-align: center;
+  	padding-top: 190px;
+  	width: auto;
+
+  }
+
+
+
+ .nav {
+
+   height: auto;
+   padding: 8px 0;
+   
+ } 
+
+
+.nav ul {
+
+	text-align: center;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.nav ul li{
+
+	display: inline-block;
+	padding: 0.4rem;
+
+}
+
+/*education*/
+.container-education {
+
+  	height: auto;
+  	width: 100%;
+
+  }
+
+  .faculty, .master {
+
+
+  	width: auto;
+  }
+
+
+  /*work*/
+
+  .container-work {
+
+  	height: auto;
+  	width: 100%;
+
+  }
+
+  .project, .practice {
+
+
+  	width: auto;
+  }
+
+/*skills*/
+
+.container-skills {
+
+  	height: auto;
+  	width: 100%;
+
+  }
+
+  .skills, .lang {
+
+
+  	width: auto;
+  }
+}
+
 
 /*education*/	
 
@@ -303,212 +501,9 @@ body {
 
 padding-top: 1rem;
 
-
-}
-
-/*smartphones*/
-
-@media only screen and (max-width: 480px) and (orientation:portrait ){
-  
- /*home*/
-   .container {
-
-  	height: auto;
-  	width: 100%;
-
-  }
-
-
-  .container img {
-    
-    width: 300px;
-    height: 300px;
-    
-    
-  } 
-
-  .container h1, .container p {
-
-  	width:auto;
-  	height: auto;
-
-  }
-
- 
-  
-
-  .container button {
-
-
-  	padding: 0.5rem 0.5rem;
-  	font-size: 1em;
-    margin-bottom:1rem;
-  }
-
-
-.nav ul li{
-
-	display: block;
-	padding: 0.8rem;
 }
 
 
-/*education*/
-
-.container-education {
-
-  	height: auto;
-  	width: 100%;
-
-  }
-
-  .faculty, .master {
-
-
-  	width: auto;
-  }
-
-/*work*/
-
-.container-work {
-
-  	height: auto;
-  	width: 100%;
-	overflow: auto;
-
-  }
-
-  .project, .practice {
-
-	width: auto;
-
-  }
-	
-
- 
- /*skills*/
-
- .container-skills {
-
-  	height: auto;
-  	width: 100%;
-
-  }
-
-  .skills, .lang {
-
-	width: auto;
-
-  }
-
-
-}
-
-/*tablet landscape*/
-
-@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
-
- /*home*/ 
-  .container {
-
-  	height: auto;
-  	width: 100%;
-
-
-  }
-
-  .container img {
-
-  	float: left;
-  	padding-left: 20px;
-    width: 500px;
-    height: 500px;
-    
-
-
-  }
-
-   .container h1 {
-
-  	text-align: center;
-  	padding-top: 190px;
-  	width: auto;
-
-  }
-
-
-
- .nav {
-
-   height: auto;
-   padding: 8px 0;
-   
- } 
-
-
-.nav ul {
-
-	text-align: center;
-	margin: 0 auto;
-	justify-content: center;
-}
-
-.nav ul li{
-
-	display: inline-block;
-	padding: 0.4rem;
-
-}
-
-/*education*/
-.container-education {
-
-  	height: auto;
-  	width: 100%;
-
-  }
-
-  .faculty, .master {
-
-
-  	width: auto;
-  }
-
-
-  /*work*/
-
-  .container-work {
-
-  	height: auto;
-  	width: 100%;
-
-  }
-
-  .project, .practice {
-
-
-  	width: auto;
-  }
-
-/*skills*/
-
-.container-skills {
-
-  	height: auto;
-  	width: 100%;
-
-  }
-
-  .skills, .lang {
-
-
-  	width: auto;
-  }
-
-
-
-  
-	}
 
 
 
